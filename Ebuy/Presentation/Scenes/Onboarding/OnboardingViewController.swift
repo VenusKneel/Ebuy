@@ -52,6 +52,13 @@ class OnboardingViewController: BaseViewController {
         collectionView.dataSource = self
         getStartedButton.layer.cornerRadius = 4
     }
+    
+    @IBAction func onTapGetStarted(_ sender: UIButton) {
+        
+        coordinator?.navigateToAuth()
+        
+    }
+    
 
 }
 
@@ -69,7 +76,6 @@ extension OnboardingViewController: UICollectionViewDelegate, UICollectionViewDa
         cell.descriptionLabel.text = descriptions[indexPath.row]
         cell.image.image = images[indexPath.row]
         return cell
-        
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {

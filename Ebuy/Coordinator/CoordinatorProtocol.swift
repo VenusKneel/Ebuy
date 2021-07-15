@@ -13,4 +13,7 @@ protocol CoordinatorProtocol: AnyObject {
     
     func start()
     func popViewController()
+    func navigateToAuth()
+    func navigateToSignIn()
+    func navigateToSignUp()
 }

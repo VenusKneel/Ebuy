@@ -33,6 +33,12 @@
 		DC74F427269EC17100A065E0 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC74F426269EC17100A065E0 /* OnboardingViewController.swift */; };
 		DC74F429269EC17B00A065E0 /* OnboardingViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC74F428269EC17B00A065E0 /* OnboardingViewController.storyboard */; };
 		DC74F42C26A009F300A065E0 /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC74F42B26A009F300A065E0 /* OnboardingCollectionViewCell.swift */; };
+		DC74F42F26A028A500A065E0 /* AuthMethodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC74F42E26A028A500A065E0 /* AuthMethodViewController.swift */; };
+		DC74F43126A028AE00A065E0 /* AuthMethodViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC74F43026A028AE00A065E0 /* AuthMethodViewController.storyboard */; };
+		DC74F43626A02D3B00A065E0 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC74F43526A02D3B00A065E0 /* SignInViewController.swift */; };
+		DC74F43826A02D4300A065E0 /* SignInViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC74F43726A02D4300A065E0 /* SignInViewController.storyboard */; };
+		DC74F43A26A02D5300A065E0 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC74F43926A02D5300A065E0 /* SignUpViewController.swift */; };
+		DC74F43C26A02D5C00A065E0 /* SignUpViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC74F43B26A02D5C00A065E0 /* SignUpViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +70,12 @@
 		DC74F426269EC17100A065E0 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		DC74F428269EC17B00A065E0 /* OnboardingViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnboardingViewController.storyboard; sourceTree = "<group>"; };
 		DC74F42B26A009F300A065E0 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		DC74F42E26A028A500A065E0 /* AuthMethodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthMethodViewController.swift; sourceTree = "<group>"; };
+		DC74F43026A028AE00A065E0 /* AuthMethodViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AuthMethodViewController.storyboard; sourceTree = "<group>"; };
+		DC74F43526A02D3B00A065E0 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		DC74F43726A02D4300A065E0 /* SignInViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignInViewController.storyboard; sourceTree = "<group>"; };
+		DC74F43926A02D5300A065E0 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		DC74F43B26A02D5C00A065E0 /* SignUpViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUpViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +152,7 @@
 		DC74F402269DCE3A00A065E0 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				DC74F42D26A0288100A065E0 /* Authentication */,
 				DC74F425269EC15B00A065E0 /* Onboarding */,
 				DC74F404269DCE4A00A065E0 /* Main */,
 				DC74F403269DCE4400A065E0 /* Base */,
@@ -239,6 +252,43 @@
 			path = OnboardingCell;
 			sourceTree = "<group>";
 		};
+		DC74F42D26A0288100A065E0 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				DC74F43426A02D2600A065E0 /* SignUp */,
+				DC74F43326A02D1700A065E0 /* SignIn */,
+				DC74F43226A02D0C00A065E0 /* Method */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		DC74F43226A02D0C00A065E0 /* Method */ = {
+			isa = PBXGroup;
+			children = (
+				DC74F42E26A028A500A065E0 /* AuthMethodViewController.swift */,
+				DC74F43026A028AE00A065E0 /* AuthMethodViewController.storyboard */,
+			);
+			path = Method;
+			sourceTree = "<group>";
+		};
+		DC74F43326A02D1700A065E0 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				DC74F43526A02D3B00A065E0 /* SignInViewController.swift */,
+				DC74F43726A02D4300A065E0 /* SignInViewController.storyboard */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		DC74F43426A02D2600A065E0 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				DC74F43926A02D5300A065E0 /* SignUpViewController.swift */,
+				DC74F43B26A02D5C00A065E0 /* SignUpViewController.storyboard */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -298,6 +348,9 @@
 			files = (
 				DC74F429269EC17B00A065E0 /* OnboardingViewController.storyboard in Resources */,
 				DC74F3F0269DCCFB00A065E0 /* LaunchScreen.storyboard in Resources */,
+				DC74F43126A028AE00A065E0 /* AuthMethodViewController.storyboard in Resources */,
+				DC74F43826A02D4300A065E0 /* SignInViewController.storyboard in Resources */,
+				DC74F43C26A02D5C00A065E0 /* SignUpViewController.storyboard in Resources */,
 				DC74F3ED269DCCFB00A065E0 /* Assets.xcassets in Resources */,
 				DC74F3EB269DCCFA00A065E0 /* MainViewController.storyboard in Resources */,
 			);
@@ -314,6 +367,7 @@
 				DC74F422269EBEF300A065E0 /* UIColor+Extension.swift in Sources */,
 				DC74F3E8269DCCFA00A065E0 /* MainViewController.swift in Sources */,
 				DC74F3E4269DCCFA00A065E0 /* AppDelegate.swift in Sources */,
+				DC74F43A26A02D5300A065E0 /* SignUpViewController.swift in Sources */,
 				DC74F427269EC17100A065E0 /* OnboardingViewController.swift in Sources */,
 				DC74F414269EB01800A065E0 /* UsersManager.swift in Sources */,
 				DC74F40E269EACE200A065E0 /* StoreResponse.swift in Sources */,
@@ -326,9 +380,11 @@
 				DC74F423269EBEF300A065E0 /* UICollectionView+Extensions.swift in Sources */,
 				DC74F421269EBEF300A065E0 /* UITableView+Extension.swift in Sources */,
 				DC74F406269DCE6E00A065E0 /* BaseViewController.swift in Sources */,
+				DC74F42F26A028A500A065E0 /* AuthMethodViewController.swift in Sources */,
 				DC74F418269EB44A00A065E0 /* UsersResponse.swift in Sources */,
 				DC74F41F269EBEF300A065E0 /* UICollectionViewCell+Extension.swift in Sources */,
 				DC74F409269EAC5B00A065E0 /* StoreManager.swift in Sources */,
+				DC74F43626A02D3B00A065E0 /* SignInViewController.swift in Sources */,
 				DC74F3FE269DCD6000A065E0 /* CoordinatorDelegate.swift in Sources */,
 				DC74F3FF269DCD6000A065E0 /* Storyboarded.swift in Sources */,
 				DC74F42C26A009F300A065E0 /* OnboardingCollectionViewCell.swift in Sources */,
