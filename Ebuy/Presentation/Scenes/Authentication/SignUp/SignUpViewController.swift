@@ -8,11 +8,13 @@
 import UIKit
 
 class SignUpViewController: BaseViewController {
-
+    @IBOutlet weak var signUpButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.title = "Sign Up"
+        self.title = "Sign up"
+        signUpButton.layer.cornerRadius = 5
     }
     
 

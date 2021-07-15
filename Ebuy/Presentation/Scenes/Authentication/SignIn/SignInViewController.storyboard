@@ -85,6 +85,9 @@
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="gXJ-eY-2B5" secondAttribute="trailing" constant="20" id="yZ4-al-1A8"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="signInButton" destination="omb-2n-dVi" id="t71-9s-RQX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
