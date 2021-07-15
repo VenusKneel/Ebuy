@@ -32,6 +32,7 @@
 		DC74F423269EBEF300A065E0 /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC74F41E269EBEF300A065E0 /* UICollectionView+Extensions.swift */; };
 		DC74F427269EC17100A065E0 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC74F426269EC17100A065E0 /* OnboardingViewController.swift */; };
 		DC74F429269EC17B00A065E0 /* OnboardingViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC74F428269EC17B00A065E0 /* OnboardingViewController.storyboard */; };
+		DC74F42C26A009F300A065E0 /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC74F42B26A009F300A065E0 /* OnboardingCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		DC74F41E269EBEF300A065E0 /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
 		DC74F426269EC17100A065E0 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		DC74F428269EC17B00A065E0 /* OnboardingViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnboardingViewController.storyboard; sourceTree = "<group>"; };
+		DC74F42B26A009F300A065E0 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,10 +224,19 @@
 		DC74F425269EC15B00A065E0 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
+				DC74F42A26A004C800A065E0 /* OnboardingCell */,
 				DC74F426269EC17100A065E0 /* OnboardingViewController.swift */,
 				DC74F428269EC17B00A065E0 /* OnboardingViewController.storyboard */,
 			);
 			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		DC74F42A26A004C800A065E0 /* OnboardingCell */ = {
+			isa = PBXGroup;
+			children = (
+				DC74F42B26A009F300A065E0 /* OnboardingCollectionViewCell.swift */,
+			);
+			path = OnboardingCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,6 +331,7 @@
 				DC74F409269EAC5B00A065E0 /* StoreManager.swift in Sources */,
 				DC74F3FE269DCD6000A065E0 /* CoordinatorDelegate.swift in Sources */,
 				DC74F3FF269DCD6000A065E0 /* Storyboarded.swift in Sources */,
+				DC74F42C26A009F300A065E0 /* OnboardingCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
