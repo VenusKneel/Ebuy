@@ -33,8 +33,6 @@ class OnboardingViewController: BaseViewController {
         "You can see the product with all angles, true and convenient",
         "You just need to take a photo or upload and we will find similar products for you",
         "You just need to take a photo or upload and we will find similar products for you"
-    
-    
     ]
     
     var currentPage = 0 {
@@ -43,22 +41,21 @@ class OnboardingViewController: BaseViewController {
             
             pageControl.currentPage = currentPage
             currentPage = titles.count - 1
-            
         }
         
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         collectionView.delegate = self
         collectionView.dataSource = self
+        getStartedButton.layer.cornerRadius = 4
     }
 
 }
 
 extension OnboardingViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
-    
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return titles.count
@@ -85,6 +82,5 @@ extension OnboardingViewController: UICollectionViewDelegate, UICollectionViewDa
         
     }
 
-    
 }
 

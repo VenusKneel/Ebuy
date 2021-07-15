@@ -41,13 +41,13 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="View product 360 degrees" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uE7-RD-mb3">
-                                                    <rect key="frame" x="70" y="546" width="273" height="28"/>
+                                                    <rect key="frame" x="70" y="538" width="273" height="28"/>
                                                     <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="20"/>
                                                     <color key="textColor" red="0.53725490196078429" green="0.37254901960784315" blue="0.26666666666666666" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You can see the product with all angles, true and convenient" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0sL-sU-fae">
-                                                    <rect key="frame" x="20" y="594" width="373" height="39.5"/>
+                                                    <rect key="frame" x="20" y="586" width="373" height="39.5"/>
                                                     <fontDescription key="fontDescription" name="PingFangSC-Light" family="PingFang SC" pointSize="14"/>
                                                     <color key="textColor" red="0.61568627450980395" green="0.61960784313725492" blue="0.63921568627450975" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -56,7 +56,7 @@
                                             <constraints>
                                                 <constraint firstItem="1he-jx-TD1" firstAttribute="top" secondItem="dxY-N1-KAz" secondAttribute="top" constant="158" id="0RB-Vf-qfq"/>
                                                 <constraint firstItem="1he-jx-TD1" firstAttribute="leading" secondItem="dxY-N1-KAz" secondAttribute="leading" constant="20" id="5qV-7n-LUd"/>
-                                                <constraint firstItem="uE7-RD-mb3" firstAttribute="top" secondItem="1he-jx-TD1" secondAttribute="bottom" constant="178" id="NKo-E2-X4m"/>
+                                                <constraint firstItem="uE7-RD-mb3" firstAttribute="top" secondItem="1he-jx-TD1" secondAttribute="bottom" constant="170" id="NKo-E2-X4m"/>
                                                 <constraint firstItem="0sL-sU-fae" firstAttribute="leading" secondItem="dxY-N1-KAz" secondAttribute="leading" constant="20" id="O8l-5H-AYW"/>
                                                 <constraint firstItem="uE7-RD-mb3" firstAttribute="leading" secondItem="dxY-N1-KAz" secondAttribute="leading" constant="70" id="WHz-UE-nQA"/>
                                                 <constraint firstAttribute="trailing" secondItem="1he-jx-TD1" secondAttribute="trailing" constant="20" id="XcM-i9-Jyv"/>
@@ -75,7 +75,7 @@
                                 </cells>
                             </collectionView>
                             <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="Ja1-w8-gUG">
-                                <rect key="frame" x="146" y="696" width="122" height="28"/>
+                                <rect key="frame" x="146" y="704" width="122" height="28"/>
                                 <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="currentPageIndicatorTintColor" red="0.53725490200000003" green="0.37254901959999998" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
                             </pageControl>
@@ -96,7 +96,7 @@
                         <constraints>
                             <constraint firstItem="3NO-W4-noi" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="68A-8J-22n"/>
                             <constraint firstItem="E3u-kq-oku" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="MLf-AJ-A1W"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="Ja1-w8-gUG" secondAttribute="bottom" constant="138" id="R45-MA-0fX"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="Ja1-w8-gUG" secondAttribute="bottom" constant="130" id="R45-MA-0fX"/>
                             <constraint firstItem="3NO-W4-noi" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="a0E-Ge-ic3"/>
                             <constraint firstItem="Ja1-w8-gUG" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="h6o-Ru-ds4"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="E3u-kq-oku" secondAttribute="bottom" constant="50" id="imJ-aY-tKx"/>
